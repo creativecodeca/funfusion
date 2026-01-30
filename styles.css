@@ -57,6 +57,7 @@ body {
     color: var(--text-white);
     line-height: 1.6;
     overflow-x: hidden;
+    cursor: default;
 }
 
 /* Typography */
@@ -1290,8 +1291,14 @@ footer {
         justify-content: center;
     }
 
-    .location-icon {
+    .hero-location .location-icon {
         display: none;
+    }
+
+    .footer-contact .location-icon {
+        width: 14px;
+        height: 14px;
+        margin-top: 4px;
     }
 
     .social-links {
