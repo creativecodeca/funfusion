@@ -1219,11 +1219,11 @@ footer {
     }
 
     header {
-        padding: 8px 0;
+        padding: 12px 0;
     }
 
     .logo img {
-        height: 70px;
+        height: 90px;
     }
 
     .hero {
@@ -1253,6 +1253,11 @@ footer {
 
     .package-tabs {
         flex-direction: column;
+    }
+
+    .birthday-cta-wrapper {
+        display: flex;
+        justify-content: center;
     }
 
     .contact-methods {
