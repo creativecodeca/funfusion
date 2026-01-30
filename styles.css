@@ -1218,6 +1218,19 @@ footer {
         display: flex;
     }
 
+    header {
+        padding: 8px 0;
+    }
+
+    .logo img {
+        height: 70px;
+    }
+
+    .hero {
+        min-height: 80vh;
+        padding-top: 60px;
+    }
+
     .mobile-menu-btn {
         display: flex;
     }
@@ -1259,6 +1272,21 @@ footer {
 
     .footer-brand {
         max-width: 100%;
+    }
+
+    .footer-brand img {
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .footer-contact li {
+        justify-content: center;
+    }
+
+    .location-icon {
+        display: none;
     }
 
     .social-links {
